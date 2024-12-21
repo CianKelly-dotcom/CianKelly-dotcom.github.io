@@ -1,5 +1,3 @@
-# CianKelly-dotcom.github.io
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,62 +6,68 @@
     <title>EasyKey Wiki</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.8;
+            font-family: 'Helvetica', Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #eef2ff;
+            background-color: #f9faff;
             color: #333;
         }
         header {
             background: linear-gradient(90deg, #a8bbff, #6d87d8);
             color: #fff;
-            padding: 2rem 0;
+            padding: 2rem;
             text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         header h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin: 0;
         }
         nav {
-            background: #6d87d8;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            background: #ffffff;
+            padding: 1rem;
             position: sticky;
             top: 0;
             z-index: 1000;
+            border-bottom: 1px solid #ddd;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         nav a {
-            color: #fff;
+            color: #6d87d8;
             text-decoration: none;
             margin: 0 1rem;
-            font-weight: bold;
+            font-weight: 500;
             font-size: 1rem;
             transition: color 0.3s ease;
         }
         nav a:hover {
-            color: #a8bbff;
+            color: #333;
         }
         main {
-            max-width: 900px;
-            margin: 3rem auto;
+            max-width: 1200px;
+            margin: 2rem auto;
             padding: 2rem;
             background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
         section {
             margin-bottom: 3rem;
         }
         h1, h2, h3 {
             color: #6d87d8;
+            margin-bottom: 1rem;
         }
         h2 {
             border-bottom: 2px solid #a8bbff;
             padding-bottom: 0.5rem;
+            font-size: 1.8rem;
+        }
+        p {
+            margin-bottom: 1rem;
         }
         ul {
             padding-left: 1.5rem;
@@ -74,28 +78,25 @@
         }
         footer {
             text-align: center;
-            padding: 1.5rem 0;
+            padding: 2rem 0;
             background: linear-gradient(90deg, #6d87d8, #a8bbff);
             color: #fff;
-            margin-top: 3rem;
-        }
-        footer p {
-            margin: 0;
+            margin-top: 2rem;
             font-size: 0.9rem;
         }
-        /* Add hover effects to sections */
         section {
             transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
         section:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
         }
-        /* Responsive Design */
         @media (max-width: 768px) {
+            nav {
+                flex-wrap: wrap;
+            }
             nav a {
-                display: block;
-                margin: 0.5rem 0;
+                margin: 0.5rem;
             }
             main {
                 padding: 1.5rem;
@@ -114,6 +115,7 @@
         <a href="#the-product">The Product</a>
         <a href="#how-it-works">How It Works</a>
         <a href="#roadmap">Roadmap</a>
+        <a href="#branding-process">Branding Process</a>
     </nav>
 
     <main>
@@ -187,4 +189,13 @@
             <p>The name "EasyKey" conveys simplicity and usability, crucial for older users intimidated by technology. It directly implies that the product simplifies access, serving as a key to their digital world.</p>
             <h3>Defining Problems</h3>
             <p>We started by identifying challenges both personally experienced and observed in others. Problems were then ranked by importance and the need for resolution, leading to a focus on password management.</p>
-            <h3>Understanding the User</
+            <h3>Understanding the User</h3>
+            <p>We conducted interviews and created empathy maps to better understand our target demographic. This step reinforced our belief that simplicity and security are vital to our solution.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EasyKey. All rights reserved.</p>
+    </footer>
+</body>
+</html>
