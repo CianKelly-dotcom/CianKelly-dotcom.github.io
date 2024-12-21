@@ -1,4 +1,4 @@
-# CianKelly-dotcom.github.io
+#CianKelly-dotcom.github.io
 
 <!DOCTYPE html>
 <html lang="en">
@@ -180,10 +180,11 @@
                 <li><strong>Q4 2025:</strong> Launch EasyKey.</li>
             </ul>
         </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2024 EasyKey Wiki. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+        <section id="branding-process">
+            <h2>Branding Process</h2>
+            <h3>Clear Messaging through the Brand Name</h3>
+            <p>The name "EasyKey" conveys simplicity and usability, crucial for older users intimidated by technology. It directly implies that the product simplifies access, serving as a key to their digital world.</p>
+            <h3>Defining Problems</h3>
+            <p>We started by identifying challenges both personally experienced and observed in others. Problems were then ranked by importance and the need for resolution, leading to a focus on password management.</p>
+            <h3>Understanding the User</
