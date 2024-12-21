@@ -1,4 +1,4 @@
-#CianKelly-dotcom.github.io
+# CianKelly-dotcom.github.io
 
 <!DOCTYPE html>
 <html lang="en">
@@ -108,7 +108,7 @@
         <h1>EasyKey Wiki</h1>
     </header>
 
-    <nav>
+  <nav>
         <a href="#overview">Overview</a>
         <a href="#problem-space">Problem Space</a>
         <a href="#the-product">The Product</a>
