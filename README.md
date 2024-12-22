@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +14,7 @@
             color: #333;
         }
         header {
-            background: linear-gradient(90deg, #a8bbff, #6d87d8);
+            background: linear-gradient(0deg, #a8bbff, #a8bbff);
             color: #fff;
             padding: 2rem;
             text-align: center;
@@ -58,7 +57,12 @@
         section {
             margin-bottom: 3rem;
         }
-        h1, h2, h3 {
+        h1 {
+            color: #fff;
+            margin-bottom: 1rem;
+        }      
+        }
+        h2, h3 {
             color: #6d87d8;
             margin-bottom: 1rem;
         }
@@ -196,7 +200,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 EasyKey. All rights reserved.</p>
+        <p>&copy; 2024 EasyKey</p>
     </footer>
 </body>
 </html>
